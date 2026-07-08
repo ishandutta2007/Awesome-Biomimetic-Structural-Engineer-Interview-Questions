@@ -1,4 +1,10 @@
-# Biomimetic Structural Engineer Interview Questions 🦴🏗️
+<div align="center">
+  <img src="assets/banner.svg" alt="Biomimetic Structural Engineer Banner" />
+</div>
+
+<br />
+
+# 🌿 Biomimetic Structural Engineer Interview Questions 🦴🏗️🐝
 
 A curated, community-driven collection of interview questions (with model answers, frameworks, and explanations) for **Biomimetic Structural Engineer / Bio-Inspired Design Engineer** roles — spanning architecture and structural engineering firms, materials science companies, aerospace, and biomimicry-focused research labs.
 
@@ -15,7 +21,7 @@ This is not a list of trivia. Every question includes:
 
 ---
 
-## 📚 Table of Contents
+## 📚 Table of Contents 📑
 
 | # | Category | What it covers |
 |---|----------|-----------------|
@@ -32,7 +38,7 @@ Also see: [resources.md](resources.md) for external reading, key references, and
 
 ---
 
-## 🧭 How to Use This Repo
+## 🧭 How to Use This Repo 💡
 
 - **Coming from a structural/mechanical engineering background?** Prioritize sections 2 and 6 first — you'll need working fluency in how biological structures actually achieve their mechanical properties, and enough case-study grounding to speak credibly about the field's landmark examples and their real lessons (not just the popular-science version).
 - **Coming from a biology background moving into engineering design?** Prioritize sections 4 and 5 — the goal is building rigor in computational design tools and the engineering-mechanics translation work that turns a biological principle into a buildable structure.
@@ -45,7 +51,7 @@ Each question is tagged with a rough difficulty and role-level indicator:
 
 ---
 
-## 🗂 Repo Structure
+## 🗂 Repo Structure 📂
 
 ```
 biomimetic-structural-engineer-interview-questions/
@@ -64,14 +70,14 @@ biomimetic-structural-engineer-interview-questions/
     └── 08-behavioral-and-case-studies.md
 ```
 
-## 🤝 Contributing
+## 🤝 Contributing 🌱
 
 PRs are the whole point of this repo. If you were asked a question in a real interview that isn't here, add it! See [CONTRIBUTING.md](CONTRIBUTING.md) for format guidelines.
 
-## 📄 License
+## 📄 License 📜
 
 Content is available under [MIT License](LICENSE) — use it freely for your own prep, mock interviews, or hiring loops.
 
-## ⭐ Support
+## ⭐ Support 🚀
 
 If this helped you land an offer, consider starring the repo and adding the question that stumped you — it might help the next person.

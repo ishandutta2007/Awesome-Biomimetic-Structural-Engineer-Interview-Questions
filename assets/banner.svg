@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3fb950">
+        <animate attributeName="stop-color" values="#3fb950;#2f81f7;#3fb950" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#2f81f7">
+        <animate attributeName="stop-color" values="#2f81f7;#a371f7;#2f81f7" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <pattern id="hex" x="0" y="0" width="34.64" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 17.32 0 L 34.64 10 L 34.64 30 L 17.32 40 L 0 30 L 0 10 Z" fill="none" stroke="#30363d" stroke-width="1.5">
+         <animate attributeName="stroke-opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite" />
+      </path>
+      <path d="M 17.32 60 L 34.64 70 L 34.64 90 L 17.32 100 L 0 90 L 0 70 Z" fill="none" stroke="#30363d" stroke-width="1.5">
+         <animate attributeName="stroke-opacity" values="0.1;0.6;0.1" dur="5s" repeatCount="indefinite" />
+      </path>
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="15" ry="15"/>
+  <rect width="100%" height="100%" fill="url(#hex)" rx="15" ry="15"/>
+  
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="800" font-size="36" fill="url(#text-grad)">
+    Biomimetic Structural Engineer
+  </text>
+  <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="500" font-size="22" fill="#8b949e">
+    Interview Questions &amp; Resources
+  </text>
+  
+  <g opacity="0.7">
+    <circle cx="120" cy="100" r="45" fill="none" stroke="#3fb950" stroke-width="2" stroke-dasharray="12 6">
+      <animateTransform attributeName="transform" type="rotate" from="0 120 100" to="360 120 100" dur="25s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="120" cy="100" r="30" fill="none" stroke="#2f81f7" stroke-width="2" stroke-dasharray="10 8">
+      <animateTransform attributeName="transform" type="rotate" from="360 120 100" to="0 120 100" dur="15s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="120" cy="100" r="15" fill="#a371f7" opacity="0.5">
+      <animate attributeName="r" values="12;18;12" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <g opacity="0.7">
+    <circle cx="680" cy="100" r="45" fill="none" stroke="#a371f7" stroke-width="2" stroke-dasharray="12 6">
+      <animateTransform attributeName="transform" type="rotate" from="360 680 100" to="0 680 100" dur="25s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="680" cy="100" r="30" fill="none" stroke="#3fb950" stroke-width="2" stroke-dasharray="10 8">
+      <animateTransform attributeName="transform" type="rotate" from="0 680 100" to="360 680 100" dur="15s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="680" cy="100" r="15" fill="#2f81f7" opacity="0.5">
+      <animate attributeName="r" values="12;18;12" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
