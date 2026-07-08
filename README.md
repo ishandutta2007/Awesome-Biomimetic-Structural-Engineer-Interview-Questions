@@ -75,4 +75,3 @@ Content is available under [MIT License](LICENSE) — use it freely for your own
 ## ⭐ Support
 
 If this helped you land an offer, consider starring the repo and adding the question that stumped you — it might help the next person.
-# Awesome-Biomimetic-Structural-Engineer-Interview-Questions
